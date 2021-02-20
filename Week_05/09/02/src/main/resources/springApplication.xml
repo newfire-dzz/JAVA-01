@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <beans>
+        <bean class="dzz.work9.Student" name="dzz">
+            <property name="id" value="1"/>
+            <property name="name" value="dzz"/>
+            <property name="clazz" value="5班"/>
+        </bean>
+        <bean class="dzz.work9.Student" name="student">
+            <property name="clazz" value="5班"/>
+        </bean>
+    </beans>
+</beans>
